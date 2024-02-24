@@ -1,0 +1,291 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 5px;
+  color: #000;
+  background-color: #f1f4fd;
+}
+
+.heading-page {
+  position: relative;
+  background-color: #4b93b2;
+  height: 95vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading-menu img {
+  display: none;
+  position: absolute;
+  top: 0;
+  width: 6em;
+  right: 0;
+  margin: 2em 2em 0 0 
+}
+
+.heading-title {
+  font-size: 4rem;
+  color: #fff;
+}
+
+.heading-p {
+  color: #fff;
+  padding: 20px 19%;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 100;
+  line-height: 1.5;
+}
+
+.heading-button {
+}
+
+button {
+  padding: 20px 50px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-size: 15px;
+  margin: 10px 0px;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  font-weight: bold;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+}
+
+.heading-button {
+  display: flex;
+  gap: 2em;
+}
+
+.heading-button-1 {
+  background-color: #e26598;
+  color: #fff;
+}
+
+.def-page {
+  padding: 100px 0;
+}
+
+.def-heading {
+  padding: 0 10% 30px 10%;
+}
+
+.def-heading-title {
+  font-size: 10em;
+  font-weight: 100;
+}
+
+.def-heading-title span {
+  font-weight: 600;
+}
+
+.def-heading-description {
+  font-weight: 300;
+  padding: 20px 0;
+  font-size: 30px;
+  color: #a4a7ac;
+}
+
+.line {
+  margin: 0 5%;
+  border: 2px solid black;
+  width: 17%;
+}
+
+.def-section {
+  padding: 80px 10% 0 10%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.def-section-detail {
+  display: flex;
+  padding: 0 20px 50px 0;
+  justify-content: flex-start;
+  gap: 30px;
+}
+
+img {
+  width: 60px;
+  height: auto;
+}
+
+.def-section-detail-p {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 15px;
+}
+
+.def-section-detail-p-title {
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.def-section-detail-p-p {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #a4a7ac;
+}
+
+.def-section-detail-6 {
+  background-color: #4b93b2;
+  padding: 30px 30px;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.def-section-detail-6 .def-section-detail-p-p {
+  color: #fff;
+}
+
+.footer {
+  background-color: #4b93b2;
+  height: 40vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading-button-3 {
+  background-color: #000;
+  color: #fff;
+}
+
+@media only screen and (max-width: 800px) {
+  body {
+    font-size: 5px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  body {
+    font-size: 10px;
+    width: 100%;
+  }
+
+  .heading-page {
+    width: 100%;
+    height: 40vh;
+  }
+
+  .heading-menu img {
+    display: block;
+    width: 2em;
+  }
+
+  .heading-title {
+    font-size: 3em;
+    padding: 0 0 0.6em 0;
+  }
+
+  .heading-p {
+    padding: 0 10% 0.6em 10%;
+    font-size: 0.85em;
+  }
+
+  .heading-button {
+  }
+
+  button {
+    padding: 1em 1em;
+    font-size: 0.85em;
+    border: 1px solid transparent;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .def-page {
+    padding: 5em 0;
+  }
+
+  .def-heading-title {
+    font-size: 1.8em;
+  }
+
+  .def-heading-description {
+    font-size: 1.5em;
+  }
+
+  .line {
+    width: 50%;
+    margin: 0 0;
+  }
+
+  .def-section {
+    padding-top: 8em;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .def-section-detail {
+    display: flex;
+    padding: 0 0 50px 0;
+    justify-content: flex-start;
+  }
+
+  .def-section-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+  }
+
+  img {
+    width: 4em;
+    height: auto;
+  }
+
+  .def-section-detail-p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .def-section-detail-p-title {
+    font-size: 1em;
+  }
+
+  .def-section-detail-p-p {
+    font-size: 1em;
+    text-align: left;
+  }
+
+  .def-section-detail-6 {
+    padding: 1em 1em 2em 1em;
+  }
+
+  .def-section-detail-6 .def-section-detail-p-p {
+    color: #fff;
+  }
+
+  .footer {
+    height: 25vh;
+  }
+
+  .footer .heading-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+
+//==========================STYLE FOR ABBREVIATE APP ===========================
+
+
+
+

@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+  color: #000;
+}
+
+.app {
+  width: 50%;
+  margin: 20em 25%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  border: 3px solid #999;
+}
+
+.app-title {
+  font-size: 6em;
+  text-align: center;
+  margin: 0.5em 0;
+}
+
+.app-main {
+  padding: 0 2.5em 3em 2.5em;
+}
+
+.app-instruction {
+  font-size: 2em;
+  font-weight: 400;
+  padding: 0 0 0.7em 0;
+}
+
+input {
+  font-size: 2em;
+  padding: 0.8em 0.5em;
+  width: 70%;
+  border: 2px solid #418e61;
+  border-radius: 10px;
+  margin: 0 1em 2em 0;
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+  font-size: 2em;
+  padding: 0.8em 0.8em;
+  background-color: #418e61;
+  color: #fff;
+  border: 2px solid #418e61;
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: #000;
+  color: #fff;
+  border: solid black;
+  cursor: pointer;
+}
+
+#result {
+  font-size: 2em;
+  font-weight: 400;
+  padding: 0 0 1em 0;
+}
